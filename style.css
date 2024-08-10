@@ -233,3 +233,56 @@ section{
  .btn-container{
     gap: 1rem;
  }
+
+ /* Image */
+ .section-pic-container .hero-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin-top: 20px;
+    border: 5px solid rgb(181,181,181);
+    box-shadow: 0px 0px 15px rgb(114, 113, 113);
+ }
+
+ /* About Sectio  */
+ #about{
+    position: relative;
+ }
+ .about-container{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+ }
+ .about-detail-container{
+    justify-content: center;
+    flex-direction: column;
+ }
+ .about-container, .about-detail-container{
+    display: flex;
+ }
+ .about-pic{
+    border-radius: 2rem;
+ }
+ .arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+ }
+ .detail-container{
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: 0.1rem solid rgb(53, 53, 53);
+    border-color: rgb(163,163,163);
+    text-align: center;
+ }
+ .section-container{
+    gap: 4rem;
+    height: 80%;
+ }
+ .section-pic-container{
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+ }
