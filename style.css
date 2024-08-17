@@ -154,7 +154,7 @@ section{
  #profile{
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 10rem;
     height: 80vh;
  }
  .section-pic-container{
@@ -240,10 +240,9 @@ section{
     height: 350px;
     border-radius: 50%;
     margin-top: 20px;
-    border: 5px solid rgb(181,181,181);
-    box-shadow: 0px 0px 15px rgb(114, 113, 113);
  }
 
+ 
  /* About Sectio  */
  #about{
     position: relative;
@@ -286,3 +285,35 @@ section{
     width: 400px;
     margin: auto 0;
  }
+
+ /* Experience Section */
+ #experience{
+    position: relative;
+ }
+ .experience-sub-title{
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+ }
+ .experience-detail-container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+ }
+ .article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+ }
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+article .icon{
+    cursor: default;
+}
