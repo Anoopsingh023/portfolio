@@ -242,7 +242,7 @@ section{
     margin-top: 20px;
  }
 
- 
+
  /* About Sectio  */
  #about{
     position: relative;
@@ -297,7 +297,6 @@ section{
  }
  .experience-detail-container{
     display: flex; 
-    flex-direction: column;
     justify-content: center;
  }
  .article-container{
@@ -316,4 +315,31 @@ article{
 }
 article .icon{
     cursor: default;
+}
+
+/* Project */
+#project{
+    position: relative;
+}
+.color-container{
+    border-color: rgb(163,163,163);
+    background: rgb(250,250,250);
+
+}
+/* .project-container{
+    gap: 1rem;
+} */
+
+.project-img{
+    border-radius: 2rem;
+    width: 100%;
+    height: 100%;
+}
+.project-title{
+    margin: 1rem;
+    color: black;
+}
+.project-btn{
+    color: black;
+    border-color: rgb(163,163,163);
 }
